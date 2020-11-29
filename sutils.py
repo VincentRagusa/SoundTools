@@ -33,7 +33,7 @@ def match_target_amplitude(aChunk, target_dBFS):
 
 #reads in config file and returns a list of active groups
 def parseConfig():
-    with open("createSound.cfg", 'r') as configFile:
+    with open("groups.cfg", 'r') as configFile:
         result = [line[1:].strip() for line in configFile if line[0] == '+']
         if not result:
             print("config error: no sound directories included.")
