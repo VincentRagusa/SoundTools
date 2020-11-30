@@ -36,7 +36,7 @@ def slice_clip(inFile, outDir, minSilence, threshold, verbose):
                 print("Exporting {}...".format(fileName))
                 print("\tChunk Size: {}".format(SU.ms2hms(len(chunk))))
 
-            normalized_chunk.export(outDir + fileName, format = "wav")
+            normalized_chunk.export(outDir + "/"  + fileName, format = "wav")
 
 
 if __name__ == "__main__":
