@@ -21,9 +21,11 @@ slice an input file and store the sounds in the new library folder
 
 "python3 buildCache.py library"
 
+This step also generates groups.cfg which is used to generate sounds.
+
 # Generating an output file
 
-Choose the library groups you wish to include in the output file by indicating each group to include with a "+" followed by a space " " followed by the group name. For convenience, you may simply replace the "+" with another symbol such as "-" to remove the sound group from the config.
+Choose the library groups you wish to include in the output file by modifying groups.cfg to indicate each group to include with a "+" followed by a space " " followed by the group name. For convenience, you may simply replace the "+" with another symbol such as "-" to remove the sound group from the config.
 
 Run the generator program and specify an output name
 
