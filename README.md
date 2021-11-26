@@ -1,0 +1,4 @@
+# Dependencies
+ffmpeg
+
+pydub
